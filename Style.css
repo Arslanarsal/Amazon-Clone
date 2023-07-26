@@ -1,0 +1,172 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+/* --->>>>>>>>Border all */
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+/* --->>>>>>>>Box #1  Logo  */
+.nav-logo {
+  height: 50px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3px;
+}
+
+.logo {
+  position: absolute;
+  height: 40px;
+  width: 100px;
+  background-image: url(Images/amazon_logo.png);
+  background-size: cover;
+  top: 5px;
+}
+
+/* ------->>>>>>>>Box #2 Adress*/
+.nav-adress {
+  height: 50px;
+  width: 92px;
+}
+.add-first {
+  margin: 0px 0px 0px 15px;
+  color: #cccccc;
+  font-size: 0.7rem;
+}
+
+.add-sec {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0px 0px 0px 3px;
+}
+.position {
+  position: absolute;
+  top: 15px;
+}
+.add-icon {
+  display: flex;
+}
+
+/* ------->>>>>>>>Box #3 Search Bar*/
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  width: 620px;
+  height: 40px;
+  background-color: green;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+}
+
+.search-select {
+  background-color: #f3f3f3;
+  border-radius: 5px 0px 0px 5px;
+  width: 50px;
+  text-align: center;
+  border: none;
+}
+
+.search-input {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  padding: 0px 0px 0px 15px;
+}
+
+.search-icon {
+  width: 45px;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #febd68;
+  color: #0f1111;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.search-icon:hover {
+  background-color: #ff9c1c;
+}
+
+  .nav-search:hover {
+    border: 2px solid orange;
+  }
+
+/* ------->>>>>>>> language*/
+.nav-language {
+  width: 70px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px 0px 0px 2px;
+}
+.lang-flag {
+  width: 41%;
+  height: 20px;
+  background-image: url(Images/Flag.png);
+  background-size: cover;
+}
+.lang-select {
+  background-color: #0f1111;
+  color: white;
+  width: 40px;
+  height: 25px;
+  margin-left: 2px;
+  border: none;
+}
+
+/* ------->>>>>>>>Box #4 & #5 (Sign-in and order Bar)*/
+.nav-s-o-bar {
+  height: 50px;
+  padding: 4px;
+}
+
+span {
+  font-size: 0.7rem;
+}
+.nav-second {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* ------->>>>>>>>Box #6 (Sign-in and order Bar)*/
+.nav-card{
+  height: 50px;
+  padding: 10px;
+}
+
+.nav-card i{
+  font-size: 30px;
+
+}
+
+.nav-card p {
+  font-size: 0.9rem;
+  display: inline-block;
+}
