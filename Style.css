@@ -9,7 +9,6 @@
 .border {
   border: 1.5px solid transparent;
 }
-
 .border:hover {
   border: 1.5px solid white;
 }
@@ -70,7 +69,6 @@
 }
 
 /* ------->>>>>>>>Box #3 Search Bar*/
-
 .nav-search {
   display: flex;
   justify-content: space-evenly;
@@ -112,9 +110,9 @@
   background-color: #ff9c1c;
 }
 
-  .nav-search:hover {
-    border: 2px solid orange;
-  }
+.nav-search:hover {
+  border: 2px solid orange;
+}
 
 /* ------->>>>>>>> language*/
 .nav-language {
@@ -156,17 +154,57 @@ span {
 }
 
 /* ------->>>>>>>>Box #6 (Sign-in and order Bar)*/
-.nav-card{
+.nav-card {
   height: 50px;
   padding: 10px;
 }
 
-.nav-card i{
+.nav-card i {
   font-size: 30px;
-
 }
 
 .nav-card p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   display: inline-block;
+  font-weight: 700;
+}
+
+/* --------->>>>>>>>>>Panel */
+.panel {
+  height: 39px;
+  display: flex;
+  align-items: center;
+  background-color: #222f3d;
+  color: white;
+  font-size: .9rem;
+}
+.panel-all {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  height: 39px;
+}
+
+.panel-all span {
+  margin: 5px;
+  font-size: 1rem;
+}
+.panel-option {
+  display: flex;
+}
+
+.panel-option p {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 10px;
+  height: 39px;
+
+  align-items: center;
+}
+.panel-deal {
+  height: 39px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 10px;
 }
