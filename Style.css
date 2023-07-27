@@ -237,3 +237,37 @@ span {
 .hero-message a {
   color: #007185;
 }
+
+
+
+/* ------>>>>>>>> Shop section  */
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+.box {
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin: 20px 0px 0px 0px;
+}
+.box-img{
+  height: 300px;
+  margin: 15px 0px 15px 0px;
+  background-size: cover;
+}
+
+.box-content{
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+.box-content p{
+  color: #007185;
+}
+
+.box-content h2{
+  font-size: 1.2rem;
+}
